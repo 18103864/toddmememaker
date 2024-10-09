@@ -183,9 +183,9 @@ AddParts(topList, 'top',1, 'mememaker-assets/img/icons/top/1.png', 'mememaker-as
 AddParts(topList, 'top',2, 'mememaker-assets/img/icons/top/2.png', 'mememaker-assets/img/top/2.png');
 AddParts(topList, 'top',3, 'mememaker-assets/img/icons/top/3.png', 'mememaker-assets/img/top/3.png');
 AddParts(topList, 'top',4, 'mememaker-assets/img/icons/top/4.png', 'mememaker-assets/img/top/4.png');
-// AddParts(topList, 'top',5, 'mememaker-assets/img/icons/top/5.png', 'mememaker-assets/img/top/5.png');
-// AddParts(topList, 'top',6, 'mememaker-assets/img/icons/top/6.png', 'mememaker-assets/img/top/6.png');
-// AddParts(topList, 'top',7, 'mememaker-assets/img/icons/top/7.png', 'mememaker-assets/img/top/7.png');
+AddParts(topList, 'top',5, 'mememaker-assets/img/icons/top/5.png', 'mememaker-assets/img/top/5.png');
+AddParts(topList, 'top',6, 'mememaker-assets/img/icons/top/6.png', 'mememaker-assets/img/top/6.png');
+AddParts(topList, 'top',7, 'mememaker-assets/img/icons/top/7.png', 'mememaker-assets/img/top/7.png');
 // AddParts(topList, 'top',8, 'mememaker-assets/img/icons/top/8.png', 'mememaker-assets/img/top/8.png');
 // AddParts(topList, 'top',9, 'mememaker-assets/img/icons/top/9.png', 'mememaker-assets/img/top/9.png');
 // AddParts(topList, 'top',10, 'mememaker-assets/img/icons/top/10.png', 'mememaker-assets/img/top/10.png');
@@ -197,9 +197,9 @@ AddParts(bottomList, 'bottom', 1, 'mememaker-assets/img/icons/bottom/1.png', 'me
 AddParts(bottomList, 'bottom', 2, 'mememaker-assets/img/icons/bottom/2.png', 'mememaker-assets/img/bottom/2.png');
 AddParts(bottomList, 'bottom', 3, 'mememaker-assets/img/icons/bottom/3.png', 'mememaker-assets/img/bottom/3.png');
 AddParts(bottomList, 'bottom', 4, 'mememaker-assets/img/icons/bottom/4.png', 'mememaker-assets/img/bottom/4.png');
-// AddParts(bottomList, 'bottom', 5, 'mememaker-assets/img/icons/bottom/5.png', 'mememaker-assets/img/bottom/5.png');
-// AddParts(bottomList, 'bottom', 6, 'mememaker-assets/img/icons/bottom/6.png', 'mememaker-assets/img/bottom/6.png');
-// AddParts(bottomList, 'bottom', 7, 'mememaker-assets/img/icons/bottom/7.png', 'mememaker-assets/img/bottom/7.png');
+AddParts(bottomList, 'bottom', 5, 'mememaker-assets/img/icons/bottom/5.png', 'mememaker-assets/img/bottom/5.png');
+AddParts(bottomList, 'bottom', 6, 'mememaker-assets/img/icons/bottom/6.png', 'mememaker-assets/img/bottom/6.png');
+AddParts(bottomList, 'bottom', 7, 'mememaker-assets/img/icons/bottom/7.png', 'mememaker-assets/img/bottom/7.png');
 // AddParts(bottomList, 'bottom', 8, 'mememaker-assets/img/icons/bottom/008.png', 'mememaker-assets/img/bottom/008.png');
 // AddParts(bottomList, 'bottom', 9, 'mememaker-assets/img/icons/bottom/009.png', 'mememaker-assets/img/bottom/009.png');
 // AddParts(bottomList, 'bottom', 10, 'mememaker-assets/img/icons/bottom/010.png', 'mememaker-assets/img/bottom/010.png');
@@ -277,8 +277,8 @@ randomBtn.onclick = () => {
     const randEyes = randRange(0, 2);
     // const randMouth = randRange(0, 2);
      const randBg = randRange(0, 2);
-    const randbottom = randRange(0, 5);
-    const randtop = randRange(0, 5);
+    const randbottom = randRange(0, 8);
+    const randtop = randRange(0, 8);
 
     selectParts('head', randHead);
     selectParts('eyes', randEyes);
