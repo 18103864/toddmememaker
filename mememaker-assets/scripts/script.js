@@ -75,6 +75,8 @@ function getSelectedIdx(type) {
             return selected_bottom;
         case 'top':
             return selected_top;
+        case 'body':
+            return selected_body;
     }
 }
 
@@ -143,7 +145,8 @@ function selectParts(type, idx) {
     setSelectedIdx(type, idx);
 }
 
-AddParts(bodyList, 'body',0, undefined, 'mememaker-assets/img/base.png', true);
+AddParts(bodyList, 'body',0, 'mememaker-assets/img/icons/body/1.png', 'mememaker-assets/img/body/1.png', true);
+AddParts(bodyList, 'body',1, 'mememaker-assets/img/icons/body/2.png', 'mememaker-assets/img/body/2.png');
 
 AddParts(headList, 'head',0, 'mememaker-assets/img/none.png', undefined, true);
 AddParts(headList, 'head',1, 'mememaker-assets/img/icons/head/1.png', 'mememaker-assets/img/head/1.png');
@@ -155,15 +158,15 @@ AddParts(headList, 'head',6, 'mememaker-assets/img/icons/head/6.png', 'mememaker
 AddParts(headList, 'head',7, 'mememaker-assets/img/icons/head/7.png', 'mememaker-assets/img/head/7.png');
 AddParts(headList, 'head',8, 'mememaker-assets/img/icons/head/8.png', 'mememaker-assets/img/head/8.png');
 AddParts(headList, 'head',9, 'mememaker-assets/img/icons/head/9.png', 'mememaker-assets/img/head/9.png');
-// AddParts(headList, 'head',10, 'mememaker-assets/img/icons/head/10.png', 'mememaker-assets/img/head/10.png');
-// AddParts(headList, 'head',11, 'mememaker-assets/img/icons/head/11.png', 'mememaker-assets/img/head/11.png');
+AddParts(headList, 'head',10, 'mememaker-assets/img/icons/head/10.png', 'mememaker-assets/img/head/10.png');
+AddParts(headList, 'head',11, 'mememaker-assets/img/icons/head/11.png', 'mememaker-assets/img/head/11.png');
 // AddParts(headList, 'head',12, 'mememaker-assets/img/icons/head/12.png', 'mememaker-assets/img/head/12.png');
 
 AddParts(eyesList, 'eyes',0, 'mememaker-assets/img/none.png', undefined, true);
 AddParts(eyesList, 'eyes',1, 'mememaker-assets/img/icons/eyes/1.png', 'mememaker-assets/img/eyes/1.png');
-// AddParts(eyesList, 'eyes',2, 'mememaker-assets/img/icons/eyes/2.png', 'mememaker-assets/img/eyes/2.png');
-// AddParts(eyesList, 'eyes',3, 'mememaker-assets/img/icons/eyes/3.png', 'mememaker-assets/img/eyes/3.png');
-// AddParts(eyesList, 'eyes',4, 'mememaker-assets/img/icons/eyes/4.png', 'mememaker-assets/img/eyes/4.png');
+AddParts(eyesList, 'eyes',2, 'mememaker-assets/img/icons/eyes/2.png', 'mememaker-assets/img/eyes/2.png');
+AddParts(eyesList, 'eyes',3, 'mememaker-assets/img/icons/eyes/3.png', 'mememaker-assets/img/eyes/3.png');
+AddParts(eyesList, 'eyes',4, 'mememaker-assets/img/icons/eyes/4.png', 'mememaker-assets/img/eyes/4.png');
 // AddParts(eyesList, 'eyes',5, 'mememaker-assets/img/icons/eyes/5.png', 'mememaker-assets/img/eyes/5.png');
 // AddParts(eyesList, 'eyes',6, 'mememaker-assets/img/icons/eyes/6.png', 'mememaker-assets/img/eyes/6.png');
 // AddParts(eyesList, 'eyes',7, 'mememaker-assets/img/icons/eyes/7.png', 'mememaker-assets/img/eyes/7.png');
@@ -186,7 +189,7 @@ AddParts(topList, 'top',4, 'mememaker-assets/img/icons/top/4.png', 'mememaker-as
 AddParts(topList, 'top',5, 'mememaker-assets/img/icons/top/5.png', 'mememaker-assets/img/top/5.png');
 AddParts(topList, 'top',6, 'mememaker-assets/img/icons/top/6.png', 'mememaker-assets/img/top/6.png');
 AddParts(topList, 'top',7, 'mememaker-assets/img/icons/top/7.png', 'mememaker-assets/img/top/7.png');
-// AddParts(topList, 'top',8, 'mememaker-assets/img/icons/top/8.png', 'mememaker-assets/img/top/8.png');
+AddParts(topList, 'top',8, 'mememaker-assets/img/icons/top/8.png', 'mememaker-assets/img/top/8.png');
 // AddParts(topList, 'top',9, 'mememaker-assets/img/icons/top/9.png', 'mememaker-assets/img/top/9.png');
 // AddParts(topList, 'top',10, 'mememaker-assets/img/icons/top/10.png', 'mememaker-assets/img/top/10.png');
 // AddParts(topList, 'top',11, 'mememaker-assets/img/icons/top/11.png', 'mememaker-assets/img/top/11.png');
@@ -200,7 +203,7 @@ AddParts(bottomList, 'bottom', 4, 'mememaker-assets/img/icons/bottom/4.png', 'me
 AddParts(bottomList, 'bottom', 5, 'mememaker-assets/img/icons/bottom/5.png', 'mememaker-assets/img/bottom/5.png');
 AddParts(bottomList, 'bottom', 6, 'mememaker-assets/img/icons/bottom/6.png', 'mememaker-assets/img/bottom/6.png');
 AddParts(bottomList, 'bottom', 7, 'mememaker-assets/img/icons/bottom/7.png', 'mememaker-assets/img/bottom/7.png');
-// AddParts(bottomList, 'bottom', 8, 'mememaker-assets/img/icons/bottom/008.png', 'mememaker-assets/img/bottom/008.png');
+AddParts(bottomList, 'bottom', 8, 'mememaker-assets/img/icons/bottom/8.png', 'mememaker-assets/img/bottom/8.png');
 // AddParts(bottomList, 'bottom', 9, 'mememaker-assets/img/icons/bottom/009.png', 'mememaker-assets/img/bottom/009.png');
 // AddParts(bottomList, 'bottom', 10, 'mememaker-assets/img/icons/bottom/010.png', 'mememaker-assets/img/bottom/010.png');
 // AddParts(bottomList, 'bottom', 11, 'mememaker-assets/img/icons/bottom/11.png', 'mememaker-assets/img/bottom/11.png');
@@ -268,24 +271,27 @@ resetBtn.onclick = () => {
     selectParts('bg', 1);
     selectParts('bottom', 0);
     selectParts('top', 0);
+    selectParts('body', 0);
 }
 
 const randomBtn = document.getElementById('random-btn');
 
 randomBtn.onclick = () => {
-    const randHead = randRange(0, 10);
-    const randEyes = randRange(0, 2);
+    const randHead = randRange(0, 12);
+    const randEyes = randRange(0, 5);
     // const randMouth = randRange(0, 2);
      const randBg = randRange(0, 2);
-    const randbottom = randRange(0, 8);
-    const randtop = randRange(0, 8);
+    const randbottom = randRange(0, 9);
+    const randtop = randRange(0, 9);
+    const randbody = randRange(0, 2);
 
     selectParts('head', randHead);
     selectParts('eyes', randEyes);
     // selectParts('mouth', randMouth);
-    // selectParts('bg', randBg);
+    selectParts('bg', randBg);
     selectParts('bottom', randbottom);
     selectParts('top', randtop);
+    selectParts('body', randbody);
 }
 
 const downloadBtn = document.getElementById('download-btn');
@@ -324,7 +330,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // Automatically select the "head" category on page load
-    const defaultCategory = document.querySelector('button[data-category="head"]');
+    const defaultCategory = document.querySelector('button[data-category="body"]');
     if (defaultCategory) {
         activateCategory(defaultCategory); // Activate the "head" category by default
     }
@@ -357,7 +363,7 @@ function mousehandler(e) {
     var eventbutton = (isNS) ? myevent.which : myevent.button;
     if ((eventbutton == 2) || (eventbutton == 3)) return false;
 }
-document.oncontextmenu = mischandler;
+document.oncontextmenu = mousehandler;
 document.onmousedown = mousehandler;
 document.onmouseup = mousehandler;
 function disableCtrlKeyCombination(e) {
